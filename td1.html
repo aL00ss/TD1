@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="script.js">
+		</script>
+		<link href="forme.css" rel="stylesheet" />
+		<meta charset="UTF-8">
+	</head>
+	<body onload="afficheVille()">
+		<header>
+		<h1>TD n°1¨Programmation web - Application météo</h1>
+		</header>
+		<p>Afficher une ville :</p>
+		<select name="city" id="choixVille" onchange=afficheVille()>
+		<option value="Niort">Niort</option>
+		<option value="La Rochelle">La Rochelle</option>
+		<option value="Poitiers">Poitiers</option>
+		</select>
+		
+		<div class="flex">
+		<div id="Niort" class="Ville">
+			 <h2>Niort</h2>
+			 <p>12°, pluvieux</p>
+			 <img src="pluvieux.png" width="5%"/>
+		</div>
+
+		<div id="La Rochelle" class="Ville">
+			 <h2>La Rochelle</h2>
+			 <p>27°, ensoleillé</p>
+			 <img src="ensoleille.png" width="5%"/>
+		</div>
+		 
+		 
+		 
+		<div id="Poitiers" class="Ville">
+			 <h2>Poitiers</h2>
+			 <p>30°, orageux</p>
+			 <img src="orageux.png" width="5%"/>
+		</div>
+		</div class="flex">
+		
+
+			<p>Besnier Alexandre</p>
+			icones météos par: <a href="https://thenounproject.com/">sources des images</a>
+		</div>
+		
+	</body>
+</html>
